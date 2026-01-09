@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(/c/Python39/python.exe parse_gold.py)",
+      "Bash(python3:*)",
+      "Bash(uv run:*)",
+      "Bash(uv add:*)",
+      "Bash(uv init:*)",
+      "Bash(uv:*)",
+      "Bash(cmd /c \"c:\\\\Users\\\\myhome\\\\Downloads\\\\wowhd\\\\fishing\\\\run_enhanced_analyzer.bat\")",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(timeout /t 2 /nobreak)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
