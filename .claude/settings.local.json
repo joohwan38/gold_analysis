@@ -12,7 +12,12 @@
       "Bash(netstat:*)",
       "Bash(findstr:*)",
       "Bash(taskkill:*)",
-      "Bash(timeout /t 2 /nobreak)"
+      "Bash(timeout /t 2 /nobreak)",
+      "Bash(sqlite3:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Hugging Face Spaces web version\n\n- Add app.py for Hugging Face Spaces deployment\n- Update requirements.txt with specific versions\n- Enhance .gitignore for web deployment\n- Add README_HF.md with HF metadata\n- Add HUGGINGFACE_DEPLOYMENT.md deployment guide\n- Include sleep mode warning banner in UI\n\nFeatures:\n- 30-minute sleep mode notification\n- Improved UI with gradients and user guidance\n- Step-by-step deployment documentation\n- Security and monitoring best practices\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git config:*)"
     ],
     "deny": [],
     "ask": []
